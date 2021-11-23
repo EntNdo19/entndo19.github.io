@@ -1,0 +1,42 @@
+body{
+	background-color: darkblue;
+}
+h1{
+	font-size: 30px;
+	background-color: pink;
+	text-align: center;
+	color: purple;
+	padding: 30px;
+}
+h2{
+	text-align: center;
+	color: white;
+	padding: 40px;
+	font-size: 10px;
+}
+div{
+	border: 20px solid orange;
+	background: yellow;
+    margin: 50px;
+    padding: 20px;
+    height: 30px;
+    color:  red;
+}
+ul{ background-color: lightblue;
+	padding: 15px;
+	border: 10px dashed blue;
+}
+li{
+	color: white;
+	font-size: 10px;
+	background-color: blue;
+	padding: 1px;
+	margin: 5px;
+}
+
+p {
+	color:white;
+	background-color: lightgreen;
+	border: 10px dotted green;
+	padding: 20px;
+	font-size: 30px;

@@ -1,0 +1,22 @@
+h1{
+	background-color: lightblue;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+
+body{
+	background-color: grey;
+}
+
+
+p {
+	border:2px white;
+	font-size: 40px;
+}
+
+
+ul{
+	background-color: grey;
+	color: black;
+}
