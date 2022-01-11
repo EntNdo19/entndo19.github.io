@@ -1,0 +1,12 @@
+h1{
+	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)
+
+}
+h2 {
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(122,23,129,1) 24%, rgba(253,29,29,1) 50%, rgba(252,204,56,1) 84%, rgba(252,176,69,1) 100%);
+	font-size: 80px;
+}
+h3 {
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(114,82,182,1) 48%, rgba(252,70,107,1) 100%);
+	font-size: 100px;
+}
