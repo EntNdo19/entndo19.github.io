@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comfortaa:wght@300&family=Dancing+Script&family=Domine:wght@500&family=Inconsolata:wght@400;600&family=Noto+Serif+JP:wght@300&family=Playfair+Display:ital,wght@1,800&display=swap');
+body{
+	margon: 0px;
+}
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+	background-color: lightblue;
+	background-image: url(electronic1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	padding: 30px;
+	background-color: rgba(20, 255, 30, 0.6);
+	border-radius: 20px;
+}
+
+main{
+	padding: 100px;
+	background: radial-gradient(circle, rgba(15,84,32,1) 25%, rgba(5,0,255,1) 43%, rgba(255,253,7,1) 62%, rgba(0,0,0,1) 68%);
+}
+
+
+main p{
+	column-count: 2;
+	color: white;
+	font-family:comfortaa ;
+}
+
+#schaltung {
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkblue;
+}
+
+#schaltung ul li {
+	padding: 30px;
+	margin: 30px;
+	background-color: lightblue;
+}
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background-image: url(electronic2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer p{
+	padding: 30px;
+	background-color: rgba(255, 123, 246, 0.9);
+	border-radius: 20px;
+}
