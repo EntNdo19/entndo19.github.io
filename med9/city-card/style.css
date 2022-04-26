@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+2&family=Comfortaa:wght@300&family=Dancing+Script&family=Domine:wght@500&family=Inconsolata:wght@400;600&family=Marck+Script&family=Noto+Serif+JP:wght@300&family=Open+Sans:wght@300&family=Orelega+One&family=PT+Serif&family=Playfair+Display:ital,wght@1,800&family=Raleway:wght@200&family=Seaweed+Script&display=swap');
+body {
+	margin: 0px;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+
+
+article .tirana{
+	height: 200px;
+	width: 350px;
+	background-image: url(5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+article .shkoder {
+    background: linear-gradient(149deg, rgba(0,225,255,1) 35%, rgba(0,0,0,1) 59%);
+}
+
+h1 {
+	background-color: blue;
+	color: white;
+	font-family: open Sans;
+	text-transform: uppercase;
+	position: relative;
+	left: -40px;
+	top: -11px;
+}
+p{
+	height: 30px;
+	width: 110px;
+	background-color: white;
+	font-family: orelega one;
+	font-size: 30px;
+	position: relative;
+	left: 279px;
+	top: 72px;
+}
