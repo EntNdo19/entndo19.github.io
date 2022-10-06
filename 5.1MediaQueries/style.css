@@ -1,0 +1,58 @@
+/*padding werden zur angegeben Breite hirzugenzählt somit ergibt sich ein Wert von über 100%. Nav, article und aside erscheinen dadurch nicht nebeneinander
+box-sizing:  border-box ... Größenangeben umfassen das gesamt Element */ 
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	word-wrap: break-word;
+}
+
+/* Smartphone design*/
+nav, header, article, aside{
+	width: 100%;
+}
+
+.container{
+	width: 70%;
+	margin: auto;/* bereich wird mittig ausgerichtet*/
+}
+
+
+header {
+	padding: 25px;
+	background-color: lightgrey;
+}
+
+nav {
+	padding: 25px;
+	background-color: lightcoral;
+}
+
+article {
+	padding: 25px;
+	background-color: yellow;
+
+}
+
+aside {
+	padding: 25px;
+	background-color: lightskyblue;
+}
+
+/*Design Desktop*/
+/*768px:  trennung zw. Smartphone,Tablet und Desktop*/
+@media(min-width: 768px) {
+	nav{
+	float: left;
+	width: 25%;
+}
+article {
+	float: left;
+	width: 50%;
+}
+
+aside{
+	float: left;
+	width: 25%;
+}
+}
