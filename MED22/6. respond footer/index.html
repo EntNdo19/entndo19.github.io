@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>respond footer</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		footer {
+      background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,1,1,1) 100%);
+          color: rgba(255, 255, 255, 1.0); 
+           display: flex;
+          justify-content: space-evenly;
+        
+          flex-direction: column;
+      }
+
+      footer p a{
+      	color: wheat;
+      }
+
+      footer p a:hover{
+      	background-color: whitesmoke;
+      	color: blue;
+      }
+
+      div{
+      	padding: 35px;
+      	text-align: center;
+      }
+
+     
+
+      @media (min-width: 768px){
+      	footer {
+      background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,1,1,1) 100%);
+          color: rgba(255, 255, 255, 1.0);
+          width: 100%;
+         flex-direction: row;
+
+      }
+
+      div{
+      	
+
+      	text-align: left;
+      }
+
+	 .text{
+	      	width: 50%;
+	      }
+  }
+
+	</style>
+</head>
+<body>
+	<footer>
+			<div>
+				<h2>About</h2>
+				<p><a href="#">Link 1</a></p>
+				<p><a href="#">Link 2</a></p>
+				<p><a href="#">Link 3</a></p>
+			</div>
+	
+
+	        <div>
+		        <h2>Service</h2>
+                <p><a href="#">Link 1</a></p>
+				<p><a href="#">Link 2</a></p>
+				<p><a href="#">Link 3</a></p>
+			</div>
+
+			<div class="text">
+				<h2>Our Company</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec quam nec ante sodales volutpat. Phasellus mi lectus, maximus rutrum suscipit in, vehicula lacinia sapien. Nam rhoncus auctor massa, sit amet interdum eros bibendum at. Mauris lobortis odio lectus, sed blandit libero elementum vel. Cras ornare commodo nisi, ac sodales lacus consequat ac.</p>
+			</div>
+</footer>
+
+
+
+</body>
+</html>
